@@ -9,7 +9,7 @@ export const ACTS = [
   { id: 'surface', screens: 2.6 },
   { id: 'verdict', screens: 3.4 },
   { id: 'pools', screens: 2.8 },
-  { id: 'seat', screens: 1.4 },
+  { id: 'seat', screens: 2 },
 ] as const
 
 export type ActId = (typeof ACTS)[number]['id']
